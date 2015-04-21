@@ -4,6 +4,7 @@
   "description": "Sample test for new code check",
   "main": "index.js",
   "scripts": {
+    "start": "node --harmony .",
     "test": "mocha spec/*"
   },
   "repository": {
@@ -16,11 +17,19 @@
     "url": "https://github.com/shunjikonishi/sample-test/issues"
   },
   "homepage": "https://github.com/shunjikonishi/sample-test",
+  "dependencies": {
+    "koa": "0.19.1",
+    "koa-router": "4.3.2",
+    "koa-body": "1.2.0",
+    "koa-session": "3.1.0",
+    "co-mysql": "1.0.0"
+  },
   "devDependencies": {
     "api-first-spec": "^0.1.7",
     "chai": "^2.2.0",
     "moment": "^2.9.0",
     "mysql": "^2.6.1",
-    "sql-fixtures": "^0.9.0"
+    "sql-fixtures": "^0.9.0",
+    "jshint": "2.7.0"
   }
 }
