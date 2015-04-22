@@ -1,6 +1,9 @@
 {
   "host": "localhost:8080",
   "port": 8080,
+  "session": {
+    "keys": ["cookies"]
+  },
   "mysql": {
     "host": "localhost",
     "user": "vagrant",
